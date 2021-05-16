@@ -52,8 +52,6 @@ Semantic code search is the task of retrieving relevant code given a  natural la
 ## Data
 The primary dataset consists of 2 million (`comment`, `code`) pairs from open source libraries.  Concretely, a `comment` is a top-level function or method comment (e.g. [docstrings](https://en.wikipedia.org/wiki/Docstring) in Python), and `code` is an entire function or method. Currently, the dataset contains Python, Javascript, Ruby, Go, Java, and PHP code.  We partition the data into train, validation, and test splits such that code from the same repository can only exist in one partition. Currently the model is only trained on the python subsection of the dataset. 
 
-## Setup
-
 # Data Details
 
 ## Schema & Format
