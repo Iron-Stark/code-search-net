@@ -23,6 +23,9 @@
   git clone https://github.com/Iron-Stark/code-search-net
   cd code-search-net/
   mkdir resources/
+  cd resources/
+  mkdir data/
+  cd data/
   # download data (~3.5GB) from S3;
   #The s3 links follow this pattern:
   # https://s3.amazonaws.com/code-search-net/CodeSearchNet/v2/{python,java,go,php,ruby,javascript}.zip
